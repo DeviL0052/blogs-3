@@ -1,0 +1,45 @@
+.container{
+    display: grid;
+    grid-template-columns: 53% 47%;
+}
+
+.c1{
+    margin-top: 5%;
+}
+
+.c2{
+    margin-top: 12%;
+}
+
+.c2 img{
+    width: 400px;
+    margin-left: 30px;
+}
+
+/*.box{
+    width: 50px;
+    height: 50px;
+    transform: rotateZ(65deg);
+    background: yellow;
+}
+*/
+#box{
+    display: flex;
+    flex-direction: row;
+}
+#box ::before,
+#box ::after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid #000;
+    margin: auto;
+
+}
+.container3{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+th{
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+}
